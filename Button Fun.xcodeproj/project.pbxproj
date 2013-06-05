@@ -18,6 +18,8 @@
 		C2AC8049175E72E1007209EB /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C2AC8048175E72E1007209EB /* Default-568h@2x.png */; };
 		C2AC804C175E72E1007209EB /* BIDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2AC804B175E72E1007209EB /* BIDViewController.m */; };
 		C2AC804F175E72E1007209EB /* BIDViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C2AC804D175E72E1007209EB /* BIDViewController.xib */; };
+		C2AC8056175F700E007209EB /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = C2AC8055175F700E007209EB /* icon.png */; };
+		C2AC8058175F7013007209EB /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C2AC8057175F7013007209EB /* icon@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +39,8 @@
 		C2AC804A175E72E1007209EB /* BIDViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BIDViewController.h; sourceTree = "<group>"; };
 		C2AC804B175E72E1007209EB /* BIDViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BIDViewController.m; sourceTree = "<group>"; };
 		C2AC804E175E72E1007209EB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/BIDViewController.xib; sourceTree = "<group>"; };
+		C2AC8055175F700E007209EB /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon.png; path = ../icon.png; sourceTree = "<group>"; };
+		C2AC8057175F7013007209EB /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon@2x.png"; path = "../icon@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +100,8 @@
 		C2AC8039175E72E1007209EB /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				C2AC8057175F7013007209EB /* icon@2x.png */,
+				C2AC8055175F700E007209EB /* icon.png */,
 				C2AC803A175E72E1007209EB /* Button Fun-Info.plist */,
 				C2AC803B175E72E1007209EB /* InfoPlist.strings */,
 				C2AC803E175E72E1007209EB /* main.m */,
@@ -164,6 +170,8 @@
 				C2AC8047175E72E1007209EB /* Default@2x.png in Resources */,
 				C2AC8049175E72E1007209EB /* Default-568h@2x.png in Resources */,
 				C2AC804F175E72E1007209EB /* BIDViewController.xib in Resources */,
+				C2AC8056175F700E007209EB /* icon.png in Resources */,
+				C2AC8058175F7013007209EB /* icon@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,6 +307,7 @@
 				C2AC8054175E72E1007209EB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
